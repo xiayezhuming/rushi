@@ -6,6 +6,8 @@ import store from './store'
 import "./assets/style/reset.stylus"
 // 新的rem
 import "amfe-flexible/index.js";
+
+import "./assets/style/classify.stylus";
 Vue.config.productionTip = false
 
 import {
@@ -19,9 +21,11 @@ import {
   Toast,
   Lazyload,
   Tab, 
-  Tabs
+  Tabs,
+  NavBar,
 } from 'vant'
 
+Vue.use(NavBar)
 Vue.use(Tabbar)
 Vue.use(TabbarItem )
 Vue.use(Swipe)

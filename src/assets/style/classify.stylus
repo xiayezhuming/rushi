@@ -1,0 +1,102 @@
+// 头部
+.classifyheader
+  position fixed
+  top 0
+  left 0 
+  height 45px
+  width 100%
+  background: #FAFAFA;
+  z-index 100
+  .van-hairline--bottom
+    
+  .ch-img1
+    position absolute
+    top 13px
+    left 145px
+    z-index 100
+    width 81px
+    height 19px
+  .ch-img2
+    position absolute
+    top 13px
+    left 16px
+    z-index 100
+    width 20px
+    height 19px
+// 导航 
+.van-tabs__wrap
+  position fixed
+  top 45px
+  left 0
+  height 67px
+  width 100%
+  z-index 100
+  background #fafafa
+  .van-tabs__nav--complete
+    width 100%
+    height 100%
+    font-size 14px
+    font-weight 900
+    .van-tab
+      float left  
+      background: #FAFAFA;
+      padding 17px
+      color: #ADADAD;
+      //次级列表
+.cijiul
+  position fixed
+  top 88px
+  left 0
+  width 100%
+  padding-left 32px
+  height 58px
+  background #fff
+  display flex
+  align-items center
+  z-index 100
+  li
+    height 27px
+    border-radius 13px
+    background #f5f5f5
+    font-size 12px
+    padding 8px
+    margin-right 10px
+    color #ADADAD
+    float left
+  .cijiseen
+    background #000 
+    //沙发列表 
+.gongge
+  position absolute
+  top 0px
+  left 0
+  width 100%
+  height 100%
+  display flex
+  justify-content space-evenly
+  flex-wrap wrap
+  li
+    width 160px
+    height 157px
+    img
+      width 100%
+      height 100%
+// 其他tab切换内容
+.van-tab__pane
+  position absolute
+  top 148px
+  left 0 
+  width 100%     
+//底部
+.shafafooter
+  position fixed
+  bottom 0
+  left 0
+  width 100%
+  height 34px
+  background: #B2ACCC;
+  z-index 200
+
+
+
+  
