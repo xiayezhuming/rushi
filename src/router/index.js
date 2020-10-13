@@ -38,7 +38,11 @@ const routes = [
   {
     path:'/list',
     component:()=>import('../components/List.vue')
-  }
+  },
+    {
+    path:'/tinshutiaojie',
+    component:()=>import('../components/tinshu/TinshuTiaojie.vue')
+  },
 ]
 
 const router = new VueRouter({

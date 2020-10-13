@@ -23,6 +23,10 @@ import {
   Tab, 
   Tabs,
   NavBar,
+  Popup,
+  Step,
+  Steps,
+  Progress
 } from 'vant'
 
 Vue.use(NavBar)
@@ -37,6 +41,10 @@ Vue.use(Toast)
 Vue.use(Lazyload)
 Vue.use(Tab)
 Vue.use(Tabs)
+Vue.use(Popup);
+Vue.use(Step);
+Vue.use(Steps);
+Vue.use(Progress);
 
 new Vue({
   router,
