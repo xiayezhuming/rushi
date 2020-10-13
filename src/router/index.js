@@ -38,6 +38,10 @@ const routes = [
   {
     path:'/list',
     component:()=>import('../components/List.vue')
+  },
+  {
+    path:'/listenbook',
+    component:()=>import('../components/listenbook.vue')
   }
 ]
 
