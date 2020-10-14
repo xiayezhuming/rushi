@@ -1,7 +1,7 @@
 <template>
   <div class="listenbook">
   <router-view />
-<van-nav-bar   left-arrow>
+<van-nav-bar   left-arrow @click-left="onClickLeft">
   <template #right><van-icon name="share-o" />
     
   </template>
@@ -155,6 +155,9 @@ methods: {
     this.actived = 1
     this.talk = 'writer-h'
    
+  },
+  onClickLeft(){
+    this.$router.go(-1)
   }
   },
 }
