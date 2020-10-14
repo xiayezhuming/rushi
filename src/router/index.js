@@ -42,6 +42,18 @@ const routes = [
   {
     path:'/listenbook',
     component:()=>import('../components/listenbook.vue')
+  },
+    {
+    path:'/transition',
+    component:()=>import('../components/Transition.vue')
+  },
+  {
+    path:'/login',
+    component:()=>import('../components/Login.vue')
+  },
+  {
+    path:'/zhuce',
+    component:()=>import('../components/Zhuce.vue')
   }
 ]
 
