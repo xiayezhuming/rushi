@@ -23,12 +23,8 @@ import {
   Tab, 
   Tabs,
   NavBar,
-<<<<<<< HEAD
-  Button
-=======
   Field,
   Button 
->>>>>>> rushi-hcj
 } from 'vant'
 
 Vue.use(NavBar)
@@ -44,13 +40,8 @@ Vue.use(Lazyload)
 Vue.use(Tab)
 Vue.use(Tabs)
 Vue.use(NavBar)
-<<<<<<< HEAD
-Vue.use(Button)
-
-=======
 Vue.use(Field)
 Vue.use(Button)
->>>>>>> rushi-hcj
 
 new Vue({
   router,
