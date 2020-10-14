@@ -23,10 +23,7 @@ import {
   Tab, 
   Tabs,
   NavBar,
-<<<<<<< HEAD
   Button
-=======
->>>>>>> rushi-chenjun
 } from 'vant'
 
 Vue.use(NavBar)
