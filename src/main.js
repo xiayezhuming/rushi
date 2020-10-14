@@ -5,13 +5,9 @@ import store from './store'
 // 全局怪异盒
 import "./assets/style/reset.stylus"
 // 新的rem
-<<<<<<< HEAD
 import "amfe-flexible/index.js";
 
 import "./assets/style/classify.stylus";
-=======
-import "amfe-flexible";
->>>>>>> xia
 Vue.config.productionTip = false
 
 import {
