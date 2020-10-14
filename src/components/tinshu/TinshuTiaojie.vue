@@ -14,7 +14,6 @@
           track-color="#C0B7B0"
           stroke-width="3px"
         />
-        <button @click="caaaa">111</button>
         <p class="tm-p2">倍速调节</p>
         <van-steps :active="active" active-color="#FDD900" inactive-color="#C0B7B0">
           <van-step>0.5</van-step>
@@ -24,6 +23,12 @@
           <van-step>1.5</van-step>
           <van-step>2.0</van-step>
         </van-steps>
+        <div class="ac1" @click="ac1"></div>
+        <div class="ac2" @click="ac2"></div>
+        <div class="ac3" @click="ac3"></div>
+        <div class="ac4" @click="ac4"></div>
+        <div class="ac5" @click="ac5"></div>
+        <div class="ac6" @click="ac6"></div>
       </main>
     </van-popup>
   </div>
@@ -51,6 +56,24 @@ export default {
     showPopup2(){
       this.show=false
     },
+     ac1(){
+      this.active=0
+    },
+    ac2(){
+      this.active=1
+    },
+    ac3(){
+      this.active=2
+    },
+    ac4(){
+      this.active=3
+    },
+    ac5(){
+      this.active=4
+    },
+    ac6(){
+      this.active=5
+    }
   },
 };
 </script>
@@ -117,7 +140,66 @@ export default {
       top 250px
       left 36px
     }
-   
+    .ac1{
+      width 15px
+      height 15px
+      background red
+      position absolute
+      top 280px
+      left 45px 
+      z-index 100
+      opacity 0
+    }
+    .ac2{
+      width 15px
+      height 15px
+      background red
+      position absolute
+      top 280px
+      left 100px 
+      z-index 100
+      opacity 0
+    }
+    .ac3{
+      width 15px
+      height 15px
+      background red
+      position absolute
+      top 280px
+      left 150px 
+      z-index 100
+      opacity 0
+    }
+    .ac4{
+      width 15px
+      height 15px
+      background red
+      position absolute
+      top 280px
+      left 210px 
+      z-index 100
+      opacity 0
+    }
+    .ac5{
+      width 15px
+      height 15px
+      background red
+      position absolute
+      top 280px
+      left 270px 
+      z-index 100
+      opacity 0 
+    }
+    .ac6{
+      width 15px
+      height 15px
+      background red
+      position absolute
+      top 280px
+      left 315px 
+      z-index 100
+      opacity 0 
+    } 
   }
 }
 </style>
