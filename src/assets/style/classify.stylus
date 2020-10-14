@@ -27,7 +27,7 @@
 .van-tabs__wrap
   position fixed
   top 45px
-  left 0
+  left -5px
   height 67px
   width 100%
   z-index 100
