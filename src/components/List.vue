@@ -62,7 +62,8 @@
         <Chuju />
       </van-tab>
     </van-tabs>
-    <footer class="shafafooter"></footer>
+    
+    
   </div>
 </template>
 
