@@ -19,7 +19,10 @@ import {
   Toast,
   Lazyload,
   Tab, 
-  Tabs
+  Tabs,
+  NavBar,
+  Field,
+  Button 
 } from 'vant'
 
 Vue.use(Tabbar)
@@ -33,6 +36,9 @@ Vue.use(Toast)
 Vue.use(Lazyload)
 Vue.use(Tab)
 Vue.use(Tabs)
+Vue.use(NavBar)
+Vue.use(Field)
+Vue.use(Button)
 
 new Vue({
   router,

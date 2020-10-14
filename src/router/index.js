@@ -38,6 +38,18 @@ const routes = [
   {
     path:'/list',
     component:()=>import('../components/List.vue')
+  },
+  {
+    path:'/transition',
+    component:()=>import('../components/Transition.vue')
+  },
+  {
+    path:'/login',
+    component:()=>import('../components/Login.vue')
+  },
+  {
+    path:'/zhuce',
+    component:()=>import('../components/Zhuce.vue')
   }
 ]
 
