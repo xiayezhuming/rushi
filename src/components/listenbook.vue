@@ -310,8 +310,13 @@ methods: {
     .times
      font-size 14px
      color #b8b8b8
-       
-     
+ .van-tabs
+   .van-tabs__wrap
+      position static   
+   .van-tabs__content
+      .van-tab__pane
+        position static
+    
 
        
 </style>
