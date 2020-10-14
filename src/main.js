@@ -5,7 +5,7 @@ import store from './store'
 // 全局怪异盒
 import "./assets/style/reset.stylus"
 // 新的rem
-import "amfe-flexible/index.js";
+import "amfe-flexible";
 Vue.config.productionTip = false
 
 import {
