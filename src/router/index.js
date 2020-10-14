@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path:'/',
-    redirect:'/works'
+    redirect:'/index'
   },
   {
     path:'/index',
@@ -54,7 +54,11 @@ const routes = [
   {
     path:'/zhuce',
     component:()=>import('../components/Zhuce.vue')
-  }
+  },
+  {
+    path:'/tinshutiaojie',
+    component:()=>import('@/components/tinshu/TinshuTiaojie.vue')
+  },
 ]
 
 const router = new VueRouter({

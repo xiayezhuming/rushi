@@ -24,7 +24,11 @@ import {
   Tabs,
   NavBar,
   Field,
-  Button 
+  Button,
+  Popup,
+  Step,
+  Steps,
+  Progress
 } from 'vant'
 
 Vue.use(NavBar)
@@ -42,6 +46,10 @@ Vue.use(Tabs)
 Vue.use(NavBar)
 Vue.use(Field)
 Vue.use(Button)
+Vue.use(Popup);
+Vue.use(Step);
+Vue.use(Steps);
+Vue.use(Progress);
 
 new Vue({
   router,

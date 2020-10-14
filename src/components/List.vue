@@ -78,7 +78,7 @@ import Chuju from "./classify/Chuju";
 export default {
   data() {
     return {
-      active: 2,
+      active: 0,
       cijiList: ["全部", "单人沙发", "组合沙发", "儿童沙发"],
       cijiactive: 0,
       type: sessionStorage.getItem("type") || "1"
